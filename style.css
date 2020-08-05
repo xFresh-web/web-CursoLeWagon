@@ -1,0 +1,192 @@
+/* -- Generales --*/
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Yanone Kaffeesatz';
+  font-size: 25px;
+}
+a {
+  font-family: 'Dancing Script', cursive;
+}
+
+a:visited {
+  text-decoration-style: none; 
+}
+
+a:hover {
+  text-decoration-style: none;
+  font-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+  border: white 1px solid;
+  margin-right: 8px;
+}
+
+/*-- Banner --*/
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1593642533144-3d62aa4783ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+}
+
+/*-- Barra --*/
+
+.navbar-lewagon {
+  justify-content: space-between;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+.navbar-mod {
+  display: flex;
+}
+
+.navbar-mod a {
+  padding-left: 10px;
+}
+
+
+/*-- Iconos --*/
+
+.fab {
+  font-size: 48px;
+  padding-right: 12px;
+}
+.fa-html5 {
+  color: #b72600;
+}
+
+.fa-html5:hover {
+  color: #ff3500;
+}
+
+.fa-css3-alt {
+  color: #106afb;
+}
+
+.fa-css3-alt:hover {
+  color: #3a85ff;
+}
+
+.fa-js {
+  color: #e6ac1c;
+  font-size: 45px;
+}
+
+.fa-js:hover {
+  color: #e9c46a;
+}
+
+/*-- Botones --*/
+
+.boton {
+  color: white;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-weight: 300;
+  font-size: 28px;
+  font-style: none;
+}
+
+.boton-html {
+  background-color: #b72600;
+}
+
+.boton-html:visited {
+  background-color: #ff3500;
+  font-style: none;
+  text-decoration-style: none;
+}
+
+/* Ya terminando la página tuve un problema que al pasar el mouse
+por el botón, el texto se subrayaba y se volvía azul, cosa que cuando
+lo cree al boton no pasaba. No pude solucionarlo */
+
+
+.boton-html:hover {
+  background-color: #ff3500;
+  font-style: none;
+  text-decoration-style: none;
+}
+
+.boton-css {
+  background-color: #106afb;
+}
+
+.boton-css:hover {
+  background-color: #3a85ff;
+}
+
+.boton-js {
+  background-color: #e6ac1c;
+}
+
+.boton-js:hover {
+  background-color: #e9c46a;
+}
+
+
+/*-- Footer --*/
+
+.footer {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0px 50px;
+  color: white;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links i{
+  font-size: 25px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
